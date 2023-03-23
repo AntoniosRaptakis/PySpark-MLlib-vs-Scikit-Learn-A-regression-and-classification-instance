@@ -269,3 +269,7 @@ The figure below shows the correlation between the specific target columns with 
 <img width="740" alt="ROC_PySpark" src="https://user-images.githubusercontent.com/86191637/227305003-ab508f50-cf19-4648-97a4-4f807ac61a2d.png">
 
 <img width="750" alt="confusion_matrix_ROC_curve_PySpark" src="https://user-images.githubusercontent.com/86191637/227304945-8ce7c828-0dc4-448b-8930-48d87f9d188e.png">
+
+
+By the way, Jason Brownlee is explaining clearly why do we get different results each time in machine learning.
+https://machinelearningmastery.com/different-results-each-time-in-machine-learning/
