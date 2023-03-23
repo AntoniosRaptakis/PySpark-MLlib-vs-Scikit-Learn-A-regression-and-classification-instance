@@ -5,8 +5,9 @@ There are two jupyter notebooks, one for pyspark and another one for scikit-lear
 - Data Cleaning
 - Data Preprocessing
 - Correlations with the targets
-- Two Regression instances
-- A Classification instance
+- Features selection
+- The Regression instances
+- The Classification instance
 
 In the scikit-learn notebook there is an EDA part.
 
