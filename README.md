@@ -232,14 +232,19 @@ The figure below shows the correlation between the specific target columns with 
 
 # The classification instance
 
-<img width="1002" alt="confusion_matrix_ROC_curve_PySpark" src="https://user-images.githubusercontent.com/86191637/227304945-8ce7c828-0dc4-448b-8930-48d87f9d188e.png">
+<p float="left">
+  <img width="344" alt="metrics_PySpark" src="https://user-images.githubusercontent.com/86191637/227304994-a67d42da-f1ed-419d-ac58-75024db88740.png">
+  <img width="533" alt="metrics_result_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227304997-64ca510d-b9c3-4e5e-be75-681c3d1a4934.png">
+</p>
 
-<img width="999" alt="ConfusionMatrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227304963-2c403554-95c0-415b-8b66-4920d440e9ba.png">
+<img width="750" alt="ConfusionMatrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227304963-2c403554-95c0-415b-8b66-4920d440e9ba.png">
 
-<img width="711" alt="manual_way_for_confusion_matrix" src="https://user-images.githubusercontent.com/86191637/227304981-a0073fc9-19f0-4d2d-a858-f1e6194b32f2.png">
+<img width="650" alt="manual_way_for_confusion_matrix" src="https://user-images.githubusercontent.com/86191637/227304981-a0073fc9-19f0-4d2d-a858-f1e6194b32f2.png">
 
-<img width="344" alt="metrics_PySpark" src="https://user-images.githubusercontent.com/86191637/227304994-a67d42da-f1ed-419d-ac58-75024db88740.png">
+<img width="750" alt="confusion_matrix_ROC_curve_PySpark" src="https://user-images.githubusercontent.com/86191637/227304945-8ce7c828-0dc4-448b-8930-48d87f9d188e.png">
 
-<img width="533" alt="metrics_result_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227304997-64ca510d-b9c3-4e5e-be75-681c3d1a4934.png">
+
+
+
 
 <img width="995" alt="ROC_PySpark" src="https://user-images.githubusercontent.com/86191637/227305003-ab508f50-cf19-4648-97a4-4f807ac61a2d.png">
