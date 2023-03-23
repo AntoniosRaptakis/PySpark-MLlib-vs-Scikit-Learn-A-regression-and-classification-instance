@@ -205,10 +205,10 @@ The figure below shows the correlation between the specific target columns with 
 ### Split the data
 
 ##### With Scikit-Learn
-<img width="908" alt="train_test_split_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303134-abbc9eaf-ec74-4099-b168-867b5870bd6c.png">
+<img width="740" alt="train_test_split_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303134-abbc9eaf-ec74-4099-b168-867b5870bd6c.png">
 
 ##### With PySpark
-<img width="513" alt="train_test_split_pyspark" src="https://user-images.githubusercontent.com/86191637/227303133-b7f583c1-b7ec-4253-94fd-bca7044fe628.png">
+<img width="400" alt="train_test_split_pyspark" src="https://user-images.githubusercontent.com/86191637/227303133-b7f583c1-b7ec-4253-94fd-bca7044fe628.png">
 
 
 ### Models - Algorithms
@@ -250,7 +250,7 @@ The figure below shows the correlation between the specific target columns with 
 
 
 
-### Actual vs Predicted values
+### Features importances
 
 <img width="540" alt="TotalCharges_feature_importance_pyspark" src="https://user-images.githubusercontent.com/86191637/227303125-4a6cdbf6-7451-4550-b6d6-0a5da6325dee.png">
 
