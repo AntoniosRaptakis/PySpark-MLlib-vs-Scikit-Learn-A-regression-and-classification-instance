@@ -52,8 +52,14 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 ### Drop Nan values
 
 ##### With Pandas
+<img width="500" alt="find_na_pandas" src="https://user-images.githubusercontent.com/86191637/227233299-d0879747-3b43-45a2-a23a-96e64fb51e10.png">
+<img width="500" alt="drop_na_pandas" src="https://user-images.githubusercontent.com/86191637/227233281-808556e8-2432-4649-a8f7-33ce82a1c0bf.png">
 
 ##### With PySpark
+<img width="500" alt="drop_na_pyspark" src="https://user-images.githubusercontent.com/86191637/227233285-ae7ec0a1-d61f-4ada-b097-7c8e8b93aedc.png">
+
+
+
 
 
 <p float="left">
