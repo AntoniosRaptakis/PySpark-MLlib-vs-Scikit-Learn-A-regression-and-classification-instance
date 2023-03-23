@@ -136,6 +136,17 @@ This part has been only implemented in the scikit-learn notebook.
 Firstly, I drop the off the feature costumerID.
 
 
+<img width="1001" alt="Churn_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227264561-9d4e8b0f-9790-4470-818e-76aae95dad41.png">
+
+<img width="254" alt="how_pyspark_creates_the_dataset" src="https://user-images.githubusercontent.com/86191637/227264571-e3d13dec-de70-4362-9d7f-aba349a3427f.png">
+
+<img width="999" alt="MonthlyCharges_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227264573-fe63df6a-6030-422f-a2d5-6daf607a7f19.png">
+<img width="996" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227264580-68f24acb-22a4-41b6-a29d-504f2b57f531.png">
+
+<img width="741" alt="preprocessing_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227264585-962f8f5b-7cbc-47a0-96f7-27ae250a76f0.png">
+
+<img width="1002" alt="TotalCharges_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227264594-0977173d-dd0d-4259-b0ca-e40d8e5278e5.png">
+
 
 
 # Correlations
