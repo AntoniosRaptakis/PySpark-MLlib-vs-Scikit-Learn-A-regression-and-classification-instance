@@ -175,13 +175,13 @@ The figure below shows the correlation between the specific target columns with 
 
 
 
-<img width="996" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267646-ddf1617d-983b-4634-901d-8fc05b8edc12.png">
+<img width="750" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267646-ddf1617d-983b-4634-901d-8fc05b8edc12.png">
 
-<img width="999" alt="MonthlyCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267634-b401c57c-2254-47ba-a53b-c89ada30cc9e.png">
+<img width="750" alt="MonthlyCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267634-b401c57c-2254-47ba-a53b-c89ada30cc9e.png">
 
-<img width="1002" alt="TotalCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267659-c3a1da14-1ad3-4168-81b6-8f1e2a992764.png">
+<img width="750" alt="TotalCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267659-c3a1da14-1ad3-4168-81b6-8f1e2a992764.png">
 
-<img width="1001" alt="Churn_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267596-79b997b0-24bd-4ac2-a956-6bf1455bac5e.png">
+<img width="750" alt="Churn_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267596-79b997b0-24bd-4ac2-a956-6bf1455bac5e.png">
 
 <img width="254" alt="how_pyspark_creates_the_dataset" src="https://user-images.githubusercontent.com/86191637/227267632-6156f461-23c5-4d47-ad56-1da4e6cba30c.png">
 
