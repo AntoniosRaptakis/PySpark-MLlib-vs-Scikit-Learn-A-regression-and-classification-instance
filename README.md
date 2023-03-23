@@ -104,6 +104,9 @@ Find the Nan values:
 
 Let's find the index of the Nan values:
 
+<img width="740" alt="find_na_pandas" src="https://user-images.githubusercontent.com/86191637/227302230-afedc247-ebe8-4354-8c9b-139ad15ad83d.png">
+
+
 Drop the Nan values:
 
 <img width="740" alt="drop_na_pandas" src="https://user-images.githubusercontent.com/86191637/227289834-09c2d957-f301-493c-aace-f623bf973a56.png">
