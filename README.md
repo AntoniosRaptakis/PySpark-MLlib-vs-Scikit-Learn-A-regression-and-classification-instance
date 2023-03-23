@@ -23,6 +23,15 @@ Spark verion: 3.2.1
 Anaconda verion: 1.7.2
 
 
+Used libraries:
+- Numpy
+- Pandas
+- Seaborn
+- Matplotlib
+- Scikit-learn
+- Plotly
+- Pyspark
+
 ### Read the dataset
 
 ##### With Pandas
@@ -98,6 +107,8 @@ Drop the Nan values:
 <img width="500" alt="drop_na_pyspark" src="https://user-images.githubusercontent.com/86191637/227233285-ae7ec0a1-d61f-4ada-b097-7c8e8b93aedc.png">
 
 
+# Exploratory Data Analysis (EDA)
+This part has been only implemented in the scikit-learn notebook.
 
 # Data Preprocessing
 Firstly, I drop the off the feature costumerID.
