@@ -31,6 +31,31 @@ Anaconda verion: 1.7.2
 ##### With PySpark
 <img width="600" alt="Dataset_PySpark" src="https://user-images.githubusercontent.com/86191637/227226436-81a29685-36fe-4198-b168-30277a207bf7.png">
 
+
+The features:
+- customerID: identity of the customer
+- gender: what is the gender of the customer (Female/Male)
+- SeniorCitizen: Is the customer a senior citizen? (0/1)
+- Partner: Does the customer have a partner? (Yes/No)
+- Dependents: Has the customer dependents? (Yes/No)
+- tenure: Number of months the customer has stayed with the company
+- PhoneService: Does the customer have a phone service? (Yes/ No)
+- MultipleLines: Does the customer have multiple lines or not (Yes, No, No phone service)
+- InternetService: Does the customer have multiple lines or not (Fiber, DSL, No)
+- OnlineSecurity: Has the customer purchased online security option in the contract? (Yes/No/No internet service)
+- OnlineBackup: Has the customer purchased the online back-up option in the contract? (Yes/No/No internet service)
+- DeviceProtection: Has the customer purchased the device protection option in the contract? (Yes/No/No internet service)
+- TechSupport: Has the customer purchased the technical support option in the contract (Yes/No/No internet service)
+- StreamingTV: Has the customer purchased streaming TV option in the contract? (Yes/No/No internet service)
+- StreamingMovies: Has the customer purchased streaming movies? (Yes/No/No internet service)
+- Contract: What type of contract does the customer have? (Month-to-Month/One year/Two year)
+- PaperlessBilling: Is the bill paperless? (Yes/No)
+- PaymentMethod: what is the payment method? (Electronic check/Mailed check/Bank transfer/Credit card)
+- MonthlyCharges: the monthly charges of the customer
+- TotalCharges: the total charges of the customer
+- Churn: Is the customer going to churn? (Yes/No)
+
+
 # Data Cleaning
 ##### Dataset basic information with Pandas
 <img width="300" alt="info_pandas" src="https://user-images.githubusercontent.com/86191637/227229830-e2bf9f54-5f81-4f4b-bf7b-cb5a0e5e798e.png">
@@ -94,7 +119,7 @@ I am mainly interested to see the correlation of specific features with the targ
 <img width="800" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
 
 
-The figure below shows the correlation of between the specific target columns with the selected features each time.
+The figure below shows the correlation between the specific target columns with the selected features each time.
 
 <p float="left">
   <img width="333" alt="MonthlyCharges" src="https://user-images.githubusercontent.com/86191637/227235877-03ce56f1-3ff9-4db5-bb2d-54a813a2c8dd.png">
