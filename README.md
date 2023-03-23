@@ -159,7 +159,7 @@ Having the fataframe with all of the correlations between the features, I can vi
 
 I am mainly interested to see the correlation of specific features with the target. For example, I need the correlation with the MonthlyCharges. There are some features that I won't need for the regression later, so I can drop them. Then, I select the specific column and I visualize the results. Below, I show the PySpark script.
 
-<img width="680" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
+<img width="720" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
 
 
 The figure below shows the correlation between the specific target columns with the selected features each time.
