@@ -151,7 +151,7 @@ Firstly, I drop the off the feature costumerID.
 # Correlations
 The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and spend less computation time for the calculation. Below, I show the concept to find the correlation between all features and put it into a dataframe. I show here the PySpark script:
 
-<img width="850" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
+<img width="750" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
 
 Having the fataframe with all of the correlations between the features, I can visualize it with a matrix, by showing only the lower the diagonal elements:
 
