@@ -107,7 +107,7 @@ Drop the Nan values:
 
 
 ##### With PySpark
-<img width="500" alt="drop_na_pyspark" src="https://user-images.githubusercontent.com/86191637/227233285-ae7ec0a1-d61f-4ada-b097-7c8e8b93aedc.png">
+<img width="700" alt="drop_na_pyspark" src="https://user-images.githubusercontent.com/86191637/227233285-ae7ec0a1-d61f-4ada-b097-7c8e8b93aedc.png">
 
 
 # Exploratory Data Analysis (EDA)
