@@ -19,8 +19,8 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 ### Read of the dataset
 
 <p float="left">
-  <<img width="600" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227224110-3059f4e8-ea2a-4be0-8254-ab15f809a9d6.png"/>
-  <img width="600" alt="Churn_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227220609-6ad50c15-18e8-48f3-b8a4-726ba4bd3a2d.png">
+  <<img width="500" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227224110-3059f4e8-ea2a-4be0-8254-ab15f809a9d6.png"/>
+  <img width="500" alt="Churn_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227220609-6ad50c15-18e8-48f3-b8a4-726ba4bd3a2d.png">
 </p>
 
 
