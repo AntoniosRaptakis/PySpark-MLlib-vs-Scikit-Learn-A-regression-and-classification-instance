@@ -4,7 +4,7 @@ There are two jupyter notebooks, one for pyspark and another one for scikit-lear
 
 - Data Cleaning
 - Data Preprocessing
-- A Regression instance
+- Two Regression instances
 - A Classification instance
 
 In the scikit-learn notebook there is an EDA part.
@@ -16,7 +16,7 @@ A data scientist of a telecommunications company has been asked to predict the m
 
 This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/telco-customer-churn). IBM has also a similar dataset (https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=samples-telco-customer-churn).
 
-### Read of the dataset
+### Read the dataset
 
 ###### With Pandas
 <img width="600" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227224110-3059f4e8-ea2a-4be0-8254-ab15f809a9d6.png"/>
@@ -24,6 +24,7 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 ###### With PySpark
 <img width="600" alt="Dataset_PySpark" src="https://user-images.githubusercontent.com/86191637/227226436-81a29685-36fe-4198-b168-30277a207bf7.png">
 
+# Data Cleaning
 
 
 <p float="left">
@@ -33,4 +34,3 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 
 
 
-<img width="1001" alt="Churn_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227220609-6ad50c15-18e8-48f3-b8a4-726ba4bd3a2d.png">
