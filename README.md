@@ -133,6 +133,18 @@ This part has been only implemented in the scikit-learn notebook.
 Firstly, I drop the off the feature costumerID.
 
 
+<img width="741" alt="preprocessing_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267655-7991f8af-7783-4ce2-94c8-9c777401f568.png">
+
+
+<img width="989" alt="data_preprocessing_pyspark_1" src="https://user-images.githubusercontent.com/86191637/227267611-dd315960-afeb-46a0-bacb-e123617cae13.png">
+
+<img width="991" alt="data_preprocessing_pyspark_2" src="https://user-images.githubusercontent.com/86191637/227267616-2d70e828-6cfd-4e5c-852e-3d7c63f4c07d.png">
+
+
+
+
+
+
 
 
 
@@ -157,6 +169,21 @@ The figure below shows the correlation between the specific target columns with 
   <img width="333" alt="TotalCharges" src="https://user-images.githubusercontent.com/86191637/227235888-f4869039-6356-49d4-a582-4124c241c7a1.png">
   <img width="333" alt="Churn" src="https://user-images.githubusercontent.com/86191637/227235772-9c9f6402-cd8f-4524-9e28-0149ad7d95c6.png">
 </p>
+
+
+# Features selection
+
+
+
+<img width="996" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267646-ddf1617d-983b-4634-901d-8fc05b8edc12.png">
+
+<img width="999" alt="MonthlyCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267634-b401c57c-2254-47ba-a53b-c89ada30cc9e.png">
+
+<img width="1002" alt="TotalCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267659-c3a1da14-1ad3-4168-81b6-8f1e2a992764.png">
+
+<img width="1001" alt="Churn_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267596-79b997b0-24bd-4ac2-a956-6bf1455bac5e.png">
+
+<img width="254" alt="how_pyspark_creates_the_dataset" src="https://user-images.githubusercontent.com/86191637/227267632-6156f461-23c5-4d47-ad56-1da4e6cba30c.png">
 
 
 
