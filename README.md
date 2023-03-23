@@ -61,10 +61,13 @@ Drop the Nan values:
 <img width="300" alt="drop_na_pandas" src="https://user-images.githubusercontent.com/86191637/227233281-808556e8-2432-4649-a8f7-33ce82a1c0bf.png">
 
 
+
 ##### With PySpark
 <img width="500" alt="drop_na_pyspark" src="https://user-images.githubusercontent.com/86191637/227233285-ae7ec0a1-d61f-4ada-b097-7c8e8b93aedc.png">
 
 
+
+# Data Preprocessing
 
 
 
