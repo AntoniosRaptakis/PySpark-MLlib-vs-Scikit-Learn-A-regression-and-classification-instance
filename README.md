@@ -223,17 +223,17 @@ The figure below shows the correlation between the specific target columns with 
 ### Train the models
 
 ##### With Scikit-Learn
-<img width="650" alt="train_models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303130-42e8e661-e752-4c1d-808e-2e5f8d2a4d5c.png">
+<img width="620" alt="train_models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303130-42e8e661-e752-4c1d-808e-2e5f8d2a4d5c.png">
 
 ##### With PySpark
-<img width="600" alt="train_models_pyspark" src="https://user-images.githubusercontent.com/86191637/227303129-3beddeff-df0d-49d9-9a13-59b44729529b.png">
+<img width="570" alt="train_models_pyspark" src="https://user-images.githubusercontent.com/86191637/227303129-3beddeff-df0d-49d9-9a13-59b44729529b.png">
 
 
 
 ### Metrics results
 <p float="left">
   <img width="240" alt="metrics_pyspark" src="https://user-images.githubusercontent.com/86191637/227303084-eed5c549-f081-477a-9a3e-066ee133a834.png">
-  <img width="270" alt="metrics_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303091-7b4936e0-5cf1-41f8-adb1-3ffdddfa07dd.png">
+  <img width="255" alt="metrics_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303091-7b4936e0-5cf1-41f8-adb1-3ffdddfa07dd.png">
 </p>
 
 
