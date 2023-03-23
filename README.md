@@ -18,14 +18,18 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 
 ### Read the dataset
 
-###### With Pandas
+#### With Pandas
 <img width="600" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227224110-3059f4e8-ea2a-4be0-8254-ab15f809a9d6.png"/>
 
-###### With PySpark
+#### With PySpark
 <img width="600" alt="Dataset_PySpark" src="https://user-images.githubusercontent.com/86191637/227226436-81a29685-36fe-4198-b168-30277a207bf7.png">
 
 # Data Cleaning
+#### Dataset basic information with pandas
+<img width="300" alt="info_pandas" src="https://user-images.githubusercontent.com/86191637/227229830-e2bf9f54-5f81-4f4b-bf7b-cb5a0e5e798e.png">
 
+#### Dataset basic information with pandas
+<img width="300" alt="info_pyspark" src="https://user-images.githubusercontent.com/86191637/227229854-da1be59c-aaf7-407e-805c-d3a0b360a2da.png">
 
 
 
