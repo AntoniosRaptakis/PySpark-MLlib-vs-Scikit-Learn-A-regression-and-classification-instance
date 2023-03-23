@@ -233,8 +233,8 @@ The figure below shows the correlation between the specific target columns with 
 # The classification instance
 
 <p float="left">
-  <img width="344" alt="metrics_PySpark" src="https://user-images.githubusercontent.com/86191637/227304994-a67d42da-f1ed-419d-ac58-75024db88740.png">
-  <img width="480" alt="metrics_result_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227304997-64ca510d-b9c3-4e5e-be75-681c3d1a4934.png">
+  <img width="344" alt="metrics_PySpark" src="https://user-images.githubusercontent.com/86191637/227304994-a67d42da-f1ed-419d-ac58-75024db88740.png" title="PySpark results" />
+  <img width="510" alt="metrics_result_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227304997-64ca510d-b9c3-4e5e-be75-681c3d1a4934.png">
 </p>
 
 <img width="750" alt="ConfusionMatrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227304963-2c403554-95c0-415b-8b66-4920d440e9ba.png">
