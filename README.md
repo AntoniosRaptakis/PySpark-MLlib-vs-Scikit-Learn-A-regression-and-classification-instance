@@ -113,19 +113,23 @@ Drop the Nan values:
 This part has been only implemented in the scikit-learn notebook.
 
 
-<img width="973" alt="Contract_Churn" src="https://user-images.githubusercontent.com/86191637/227262444-a11d41e4-9105-4dce-92ed-bf9498b4f920.png">
+<img width="970" alt="PhoneService_OnlineBackup_OnlineSecurity" src="https://user-images.githubusercontent.com/86191637/227262473-cf57ff90-6b20-4b3e-9094-70ddc44092d0.png">
+
+
+<img width="975" alt="StreamingMovies_PhoneService_InternetService" src="https://user-images.githubusercontent.com/86191637/227262481-e652dfc1-539c-4edf-a44c-7148a77130d3.png">
 
 
 <img width="969" alt="Partner_Dependents_InternetService" src="https://user-images.githubusercontent.com/86191637/227262464-4073f763-e870-4d79-a0fc-e18567777cd1.png">
 
 
+
+<img width="973" alt="Contract_Churn" src="https://user-images.githubusercontent.com/86191637/227262444-a11d41e4-9105-4dce-92ed-bf9498b4f920.png">
+
+
+
 <img width="987" alt="PhoneService_InternetService_Contract_groupedby_Churn" src="https://user-images.githubusercontent.com/86191637/227262470-a021a252-c7b8-4e2c-916d-c03f18f65d56.png">
 
 
-<img width="970" alt="PhoneService_OnlineBackup_OnlineSecurity" src="https://user-images.githubusercontent.com/86191637/227262473-cf57ff90-6b20-4b3e-9094-70ddc44092d0.png">
-
-
-<img width="975" alt="StreamingMovies_PhoneService_InternetService" src="https://user-images.githubusercontent.com/86191637/227262481-e652dfc1-539c-4edf-a44c-7148a77130d3.png">
 
 
 # Data Preprocessing
