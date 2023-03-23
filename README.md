@@ -37,10 +37,10 @@ Used libraries:
 ### Read the dataset
 
 ##### With Pandas
-<img width="600" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227224110-3059f4e8-ea2a-4be0-8254-ab15f809a9d6.png"/>
+<img width="740" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227289351-9cd18f7f-cb3c-42be-aeed-6849b616a75a.png">
 
 ##### With PySpark
-<img width="600" alt="Dataset_PySpark" src="https://user-images.githubusercontent.com/86191637/227226436-81a29685-36fe-4198-b168-30277a207bf7.png">
+<img width="740" alt="Dataset_PySpark" src="https://user-images.githubusercontent.com/86191637/227226436-81a29685-36fe-4198-b168-30277a207bf7.png">
 
 
 The features and their meaning:
