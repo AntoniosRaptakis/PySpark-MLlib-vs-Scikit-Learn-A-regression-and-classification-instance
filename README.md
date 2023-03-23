@@ -89,7 +89,7 @@ The features and their meaning:
 <img width="1064" alt="identify_duplicates_pandas" src="https://user-images.githubusercontent.com/86191637/227232679-ce3c9bdb-085a-432a-a4b4-2d8391994038.png">
 
 ##### With PySpark
-<img width="994" alt="dublicates_pyspark" src="https://user-images.githubusercontent.com/86191637/227232662-6fb18d91-7370-4f71-ad2f-3793b4d7e7f6.png">
+<img width="750" alt="dublicates_pyspark" src="https://user-images.githubusercontent.com/86191637/227232662-6fb18d91-7370-4f71-ad2f-3793b4d7e7f6.png">
 
 
 ### Drop Nan values
