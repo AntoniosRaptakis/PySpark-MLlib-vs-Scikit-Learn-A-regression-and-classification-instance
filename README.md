@@ -177,7 +177,7 @@ Having the fataframe with all of the correlations between the features, I can vi
 
 <img width="700" alt="correlation_matrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227242529-1a75fbcc-b573-4072-9a57-b1d609f37339.png">
 
-I am mainly interested to see the correlation of specific features with the target. For example, I need the correlation with the MonthlyCharges. There are some features that I won't need for the regression later, so I can drop them. Then, I select the specific column and I visualize the results. Below, I show the PySpark script.
+I am mainly interested to see the correlation of specific features with the target. The one of the regression instances the tarhet is the MonthlyCharges. For this case, there are some features that I won't need, so I can drop them.
 
 <img width="720" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
 
@@ -199,7 +199,11 @@ The figure below shows the correlation between the specific target columns with 
 
 # Drop features and create datasets for supervised learning
 
+##### With Pandas
+
 <img width="750" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267646-ddf1617d-983b-4634-901d-8fc05b8edc12.png">
+
+##### With PySpark
 
 <img width="750" alt="MonthlyCharges_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267634-b401c57c-2254-47ba-a53b-c89ada30cc9e.png">
 
