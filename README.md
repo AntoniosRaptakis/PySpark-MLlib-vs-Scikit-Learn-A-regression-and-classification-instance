@@ -169,20 +169,20 @@ Firstly, I drop off the costumerID column.
 
 
 # Correlations
-The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and spend less computation time for the calculation. Below, I show the concept to find the correlation between all features and put it into a dataframe. I show here the PySpark script:
+The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and save computational time. Below, I show the concept to find the correlation.
 
 <img width="750" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
 
-Having the fataframe with all of the correlations between the features, I can visualize it with a matrix, by showing only the lower the diagonal elements:
+I have the dataframe with all of the correlations between the features and I can visualize it with a matrix by showing only the lower the diagonal elements:
 
 <img width="700" alt="correlation_matrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227242529-1a75fbcc-b573-4072-9a57-b1d609f37339.png">
 
-I am mainly interested to see the correlation of specific features with the target. The one of the regression instances the tarhet is the MonthlyCharges. For this case, there are some features that I won't need, so I can drop them.
+I am mainly interested to see the correlation of specific features with the target. For example, in one of the regression instances the target is the MonthlyCharges. There are some features that I won't need, so I can drop them.
 
 <img width="720" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
 
 
-The figure below shows the correlation between the specific target columns with the selected features each time.
+The figure below shows the correlation between the specific target column with the selected features.
 
 ##### For the regressions:
 
@@ -211,9 +211,12 @@ The figure below shows the correlation between the specific target columns with 
 
 <img width="750" alt="Churn_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267596-79b997b0-24bd-4ac2-a956-6bf1455bac5e.png">
 
+Let's see how does vector assemble the features:
+
 <img width="200" alt="how_pyspark_creates_the_dataset" src="https://user-images.githubusercontent.com/86191637/227267632-6156f461-23c5-4d47-ad56-1da4e6cba30c.png">
 
-
+Here we see a random mix of Sparse and Dense vectors...why?
+Because VectorAssembler chooses one of those two output format based on whichever uses less memory!
 
 
 # The regression instances
