@@ -185,9 +185,7 @@ The figure below shows the correlation between the specific target columns with 
 <img width="400" alt="Churn" src="https://user-images.githubusercontent.com/86191637/227235772-9c9f6402-cd8f-4524-9e28-0149ad7d95c6.png">
 
 
-# Features selection
-
-
+# Drop features and create datasets for supervised learning
 
 <img width="750" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267646-ddf1617d-983b-4634-901d-8fc05b8edc12.png">
 
@@ -204,30 +202,56 @@ The figure below shows the correlation between the specific target columns with 
 
 # The regression instances
 
-<img width="278" alt="metrics_pyspark" src="https://user-images.githubusercontent.com/86191637/227303084-eed5c549-f081-477a-9a3e-066ee133a834.png">
+### Split the data
 
-<img width="291" alt="metrics_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303091-7b4936e0-5cf1-41f8-adb1-3ffdddfa07dd.png">
-
-<img width="955" alt="model_pyspark" src="https://user-images.githubusercontent.com/86191637/227303094-41149519-4fc7-4bbc-93e1-5bf0a5b5d679.png">
-
-<img width="996" alt="models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303104-08bb841a-b3b4-4995-a73b-2540e865f088.png">
-
-<img width="961" alt="TotalCharges_actual_vs_predicted_pyspark" src="https://user-images.githubusercontent.com/86191637/227303111-32b2112b-46b2-4c5c-9725-ede35764db89.png">
-
-<img width="965" alt="TotalCharges_actual_vs_predicted_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303117-50d7b208-1517-4a46-bf13-702d6bae7101.png">
-
-<img width="669" alt="TotalCharges_feature_importance_pyspark" src="https://user-images.githubusercontent.com/86191637/227303125-4a6cdbf6-7451-4550-b6d6-0a5da6325dee.png">
-
-<img width="674" alt="train_models_pyspark" src="https://user-images.githubusercontent.com/86191637/227303129-3beddeff-df0d-49d9-9a13-59b44729529b.png">
-
-<img width="717" alt="train_models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303130-42e8e661-e752-4c1d-808e-2e5f8d2a4d5c.png">
-
-<img width="513" alt="train_test_split_pyspark" src="https://user-images.githubusercontent.com/86191637/227303133-b7f583c1-b7ec-4253-94fd-bca7044fe628.png">
-
+##### With Scikit-Learn
 <img width="908" alt="train_test_split_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303134-abbc9eaf-ec74-4099-b168-867b5870bd6c.png">
 
+##### With PySpark
+<img width="513" alt="train_test_split_pyspark" src="https://user-images.githubusercontent.com/86191637/227303133-b7f583c1-b7ec-4253-94fd-bca7044fe628.png">
 
 
+### Models - Algorithms
+
+##### With Scikit-Learn
+<img width="750" alt="model_pyspark" src="https://user-images.githubusercontent.com/86191637/227303094-41149519-4fc7-4bbc-93e1-5bf0a5b5d679.png">
+
+##### With PySpark
+<img width="750" alt="models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303104-08bb841a-b3b4-4995-a73b-2540e865f088.png">
+
+
+
+### Train the models
+
+##### With PySpark
+<img width="674" alt="train_models_pyspark" src="https://user-images.githubusercontent.com/86191637/227303129-3beddeff-df0d-49d9-9a13-59b44729529b.png">
+
+##### With Scikit-Learn
+<img width="717" alt="train_models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303130-42e8e661-e752-4c1d-808e-2e5f8d2a4d5c.png">
+
+
+### Metrics results
+<p float="left">
+  <img width="200" alt="metrics_pyspark" src="https://user-images.githubusercontent.com/86191637/227303084-eed5c549-f081-477a-9a3e-066ee133a834.png">
+  <img width="200" alt="metrics_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303091-7b4936e0-5cf1-41f8-adb1-3ffdddfa07dd.png">
+</p>
+
+
+
+### Actual vs Predicted values
+
+##### With Scikit-Learn
+
+<img width="750" alt="TotalCharges_actual_vs_predicted_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303117-50d7b208-1517-4a46-bf13-702d6bae7101.png">
+
+##### With PySpark
+
+<img width="750" alt="TotalCharges_actual_vs_predicted_pyspark" src="https://user-images.githubusercontent.com/86191637/227303111-32b2112b-46b2-4c5c-9725-ede35764db89.png">
+
+
+### Actual vs Predicted values
+
+<img width="669" alt="TotalCharges_feature_importance_pyspark" src="https://user-images.githubusercontent.com/86191637/227303125-4a6cdbf6-7451-4550-b6d6-0a5da6325dee.png">
 
 
 # The classification instance
