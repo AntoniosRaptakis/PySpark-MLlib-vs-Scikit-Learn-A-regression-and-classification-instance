@@ -27,9 +27,11 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 # Data Cleaning
 
 
+
+
 <p float="left">
-  <img width="500" alt="Dataset_pandas" src="https://user-images.githubusercontent.com/86191637/227224110-3059f4e8-ea2a-4be0-8254-ab15f809a9d6.png"/>
-  <img width="500" alt="Churn_preprocessing_pyspark" src="https://user-images.githubusercontent.com/86191637/227220609-6ad50c15-18e8-48f3-b8a4-726ba4bd3a2d.png">
+  <img width="413" alt="info_pandas" src="https://user-images.githubusercontent.com/86191637/227229830-e2bf9f54-5f81-4f4b-bf7b-cb5a0e5e798e.png">
+  <img width="446" alt="info_pyspark" src="https://user-images.githubusercontent.com/86191637/227229854-da1be59c-aaf7-407e-805c-d3a0b360a2da.png">
 </p>
 
 
