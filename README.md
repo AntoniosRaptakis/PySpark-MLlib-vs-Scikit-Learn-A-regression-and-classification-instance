@@ -9,7 +9,7 @@ There are two jupyter notebooks, one for pyspark and another one for scikit-lear
 - The Regression instances
 - The Classification instance
 
-In the scikit-learn notebook there is an EDA part.
+EDA part of the tutorial is in the scikit-learn notebook.
 
 
 **Working Scenario**:
