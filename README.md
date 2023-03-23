@@ -11,10 +11,7 @@ There are two jupyter notebooks, one for pyspark and another one for scikit-lear
 
 EDA part of the tutorial is in the scikit-learn notebook.
 
-
-**Working Scenario**:
-A data scientist of a telecommunications company has been asked to predict the monthly & total cost for the services that a client has. The essential, however, would be to forecast the client who is going to resigns the contract.
-
+In the regression instances I am predicting the monthly and total charges, and in the classification I am forecasting who churns or not.
 
 This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/telco-customer-churn). IBM has also a similar dataset (https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=samples-telco-customer-churn).
 
@@ -118,40 +115,51 @@ Drop the Nan values:
 
 
 # Exploratory Data Analysis (EDA)
-This part has been only implemented in the scikit-learn notebook.
 
 
 <img width="700" alt="PhoneService_OnlineBackup_OnlineSecurity" src="https://user-images.githubusercontent.com/86191637/227262473-cf57ff90-6b20-4b3e-9094-70ddc44092d0.png">
 
+First of all, let's see the stacked pie charts
+- Left: Phone service and Online back-up
+- Right: Phone service and Online security. 
+Those pie charts simply say that Online back-up and online security are two options that maybe go together.
+
 
 <img width="700" alt="StreamingMovies_PhoneService_InternetService" src="https://user-images.githubusercontent.com/86191637/227262481-e652dfc1-539c-4edf-a44c-7148a77130d3.png">
 
+Following the same concept with different features, I secondly create the pie charts
+- Left: Streaming Movies and Internet Srvice
+- Right Phone Service and Internet Service
+
+Combining these pie charts with the previous, one can see that about 21% of the customers have:
+  - phone service
+  - no streaming movies because they do not have internet service
+  - no online back-up, and
+  - no online security
 
 <img width="700" alt="Partner_Dependents_InternetService" src="https://user-images.githubusercontent.com/86191637/227262464-4073f763-e870-4d79-a0fc-e18567777cd1.png">
-
+This bar chart has been stacked over Partners and Dependents and on the x-axis is shown the diffferent internet service provided. On top of the bars has been written the respective percentage of the internet service option.
 
 
 <img width="700" alt="Contract_Churn" src="https://user-images.githubusercontent.com/86191637/227262444-a11d41e4-9105-4dce-92ed-bf9498b4f920.png">
+The last bar plot shows the percentages of the Churn/not Churn customers and what kind of contract do they havw. Interestingly, 90% of the customers who resigned have a month-to-month contract!
 
+
+From this bar chart, one can see that the dataset is completely unbalanced because only 1/4 of the dataset includes customers who are going to churn! 
 
 
 
 
 # Data Preprocessing
-Firstly, I drop the off the feature costumerID.
+Firstly, I drop off the costumerID column.
 
-
+##### With Scikit-learn
 <img width="700" alt="preprocessing_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227270156-bd1f527e-b037-4729-bf22-3d682d2c5a84.png">
 
-
+##### PySpark
 <img width="700" alt="data_preprocessing_pyspark_1" src="https://user-images.githubusercontent.com/86191637/227267611-dd315960-afeb-46a0-bacb-e123617cae13.png">
 
 <img width="700" alt="data_preprocessing_pyspark_2" src="https://user-images.githubusercontent.com/86191637/227267616-2d70e828-6cfd-4e5c-852e-3d7c63f4c07d.png">
-
-
-
-
-
 
 
 
