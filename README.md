@@ -85,17 +85,17 @@ The correlation with the target column in supervised learning is very essential.
 
 <img width="850" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
 
-One can visualize dataframe with a matrix, by showing only the lower the diagonal elements.
+Having the fataframe with all of the correlations between the features, I can visualize it with a matrix, by showing only the lower the diagonal elements:
 
 <img width="700" alt="correlation_matrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227242529-1a75fbcc-b573-4072-9a57-b1d609f37339.png">
 
-How can I find the correlation of all features with the target?
+I am mainly interested to see the correlation of specific features with the target. For example, I need the correlation with the MonthlyCharges. There are some features that I won't need for the regression later, so I can drop them. Then, I select the specific column and I visualize the results. Below, I show the PySpark script.
 
 <img width="800" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
 
-And I can visualize for all 
 
-###### Correlation between columns with
+The figure below shows the correlation of between the specific target columns with the selected features each time.
+
 <p float="left">
   <img width="333" alt="MonthlyCharges" src="https://user-images.githubusercontent.com/86191637/227235877-03ce56f1-3ff9-4db5-bb2d-54a813a2c8dd.png">
   <img width="333" alt="TotalCharges" src="https://user-images.githubusercontent.com/86191637/227235888-f4869039-6356-49d4-a582-4124c241c7a1.png">
