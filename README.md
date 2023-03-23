@@ -1,11 +1,13 @@
-Apache Spark is a very powerful tool used for Big data. It has been used by companies and universities. In this small tutorial/article I show similarities/differences between the ML library of PySpark vs Scikit-Learn, a conventional python library for machine learning. I follow the same steps in both cases. 
+Apache Spark is a very powerful tool used for Big data. It has been used by companies and universities in order to manipulate big data and build a wareghouse. The role of this small tutorial/article is to show similarities/differences between the ML library of PySpark vs Scikit-Learn, a conventional python library for machine learning, from the documentation to the results. 
 
-Before applying any regression or classification method, I will have to discover my dataset...as it always has to be. The steps that I will follow will be:
+There are two jupyter notebooks, one for pyspark and another one for scikit-learn. I follow the same steps in both cases. These steps are: 
+
 - Data Cleaning
-- Exploratory Data Analysis (EDA)
 - Data Preprocessing
 - A Regression instance
 - A Classification instance
+
+In the scikit-learn notebook there is an EDA part.
 
 
 **Working Scenario**:
