@@ -18,9 +18,9 @@ A data scientist of a telecommunications company has been asked to predict the m
 This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/telco-customer-churn). IBM has also a similar dataset (https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=samples-telco-customer-churn).
 
 
-Python version: 3.8.8
-Spark verion: 3.2.1
-Anaconda verion: 1.7.2
+- Python version: 3.8.8
+- Spark verion: 3.2.1
+- Anaconda verion: 1.7.2
 
 
 Used libraries:
@@ -42,7 +42,8 @@ Used libraries:
 <img width="600" alt="Dataset_PySpark" src="https://user-images.githubusercontent.com/86191637/227226436-81a29685-36fe-4198-b168-30277a207bf7.png">
 
 
-The features:
+The features and their meaning:
+
 - customerID: identity of the customer
 - gender: what is the gender of the customer (Female/Male)
 - SeniorCitizen: Is the customer a senior citizen? (0/1)
