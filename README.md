@@ -233,7 +233,7 @@ The figure below shows the correlation between the specific target columns with 
 ### Metrics results
 <p float="left">
   <img width="240" alt="metrics_pyspark" src="https://user-images.githubusercontent.com/86191637/227303084-eed5c549-f081-477a-9a3e-066ee133a834.png">
-  <img width="240" alt="metrics_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303091-7b4936e0-5cf1-41f8-adb1-3ffdddfa07dd.png">
+  <img width="270" alt="metrics_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303091-7b4936e0-5cf1-41f8-adb1-3ffdddfa07dd.png">
 </p>
 
 
