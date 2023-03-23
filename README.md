@@ -138,11 +138,15 @@ Combining these pie charts with the previous, one can see that about 21% of the 
   - no online security
 
 <img width="700" alt="Partner_Dependents_InternetService" src="https://user-images.githubusercontent.com/86191637/227262464-4073f763-e870-4d79-a0fc-e18567777cd1.png">
+
 This bar chart has been stacked over Partners and Dependents and on the x-axis is shown the diffferent internet service provided. On top of the bars has been written the respective percentage of the internet service option.
 
 
+
 <img width="700" alt="Contract_Churn" src="https://user-images.githubusercontent.com/86191637/227262444-a11d41e4-9105-4dce-92ed-bf9498b4f920.png">
-The last bar plot shows the percentages of the Churn/not Churn customers and what kind of contract do they havw. Interestingly, 90% of the customers who resigned have a month-to-month contract!
+
+
+The last bar plot shows the percentages of the Churn/not Churn customers and what kind of contract do they have. Interestingly, 90% of the customers who resigned have a month-to-month contract!
 
 
 From this bar chart, one can see that the dataset is completely unbalanced because only 1/4 of the dataset includes customers who are going to churn! 
