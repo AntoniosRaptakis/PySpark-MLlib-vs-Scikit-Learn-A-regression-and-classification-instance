@@ -33,11 +33,17 @@ This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/te
 
 ### Change of the data-types
 
-##### Information about the datatypes of the features with Pandas
+##### With Pandas
 <img width="700" alt="type_change_pandas" src="https://user-images.githubusercontent.com/86191637/227231802-24a882d4-9e3c-458d-9fa2-f1e92e923f1a.png">
 
-##### Information about the datatypes of the features with PySpark
+##### With PySpark
 <img width="700" alt="type_change_pyspark" src="https://user-images.githubusercontent.com/86191637/227231808-c7384785-102b-484e-8ebd-9fa957a03851.png">
+
+### Duplicates
+
+##### With Pandas
+
+##### With PySpark
 
 
 <p float="left">
