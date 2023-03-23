@@ -102,7 +102,7 @@ Find the Nan values:
 
 <img width="740" alt="isna_pandas" src="https://user-images.githubusercontent.com/86191637/227289862-f6b84a69-a04d-40cc-a0e8-edeb54ffa128.png">
 
-<img width="361" alt="search_for_nan_pandas" src="https://user-images.githubusercontent.com/86191637/227289881-dd677782-f185-4906-a5ec-7ed0d79c9558.png">
+Let's find the index of the Nan values:
 
 Drop the Nan values:
 
