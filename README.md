@@ -17,6 +17,12 @@ A data scientist of a telecommunications company has been asked to predict the m
 
 This dataset can be found in kaggle(https://www.kaggle.com/datasets/blastchar/telco-customer-churn). IBM has also a similar dataset (https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=samples-telco-customer-churn).
 
+
+Python version: 3.8.8
+Spark verion: 3.2.1
+Anaconda verion: 1.7.2
+
+
 ### Read the dataset
 
 ##### With Pandas
@@ -69,22 +75,25 @@ Drop the Nan values:
 
 
 # Data Preprocessing
-
+Firstly, I drop the off the feature costumerID.
 
 
 
 
 # Correlations
-The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and spend less computation time for the calculation. There are some columns that will not play any role in my predictions, such as costumerID.
+The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and spend less computation time for the calculation. Below, I show the concept to find the correlation between all features and put it into a dataframe. I show here the PySpark script:
 
+<img width="850" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
 
+One can visualize dataframe with a matrix, by showing only the lower the diagonal elements.
 
-<img width="900" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
-
-<img width="800" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
-
-###### Correlation matrix
 <img width="700" alt="correlation_matrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227242529-1a75fbcc-b573-4072-9a57-b1d609f37339.png">
+
+How can I find the correlation of all features with the target?
+
+<img width="800" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
+
+And I can visualize for all 
 
 ###### Correlation between columns with
 <p float="left">
