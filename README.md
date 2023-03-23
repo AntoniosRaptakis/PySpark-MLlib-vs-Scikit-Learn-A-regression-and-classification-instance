@@ -164,10 +164,15 @@ I am mainly interested to see the correlation of specific features with the targ
 
 The figure below shows the correlation between the specific target columns with the selected features each time.
 
+##### For the regressions:
+
 <p float="left">
   <img width="400" alt="MonthlyCharges" src="https://user-images.githubusercontent.com/86191637/227235877-03ce56f1-3ff9-4db5-bb2d-54a813a2c8dd.png">
   <img width="400" alt="TotalCharges" src="https://user-images.githubusercontent.com/86191637/227235888-f4869039-6356-49d4-a582-4124c241c7a1.png">
 </p>
+
+
+##### For the classification:
 
 <img width="400" alt="Churn" src="https://user-images.githubusercontent.com/86191637/227235772-9c9f6402-cd8f-4524-9e28-0149ad7d95c6.png">
 
