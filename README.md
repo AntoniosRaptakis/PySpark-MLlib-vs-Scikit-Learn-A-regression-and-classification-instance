@@ -44,27 +44,27 @@ Used libraries:
 
 The features and their meaning:
 
-- customerID: identity of the customer
-- gender: what is the gender of the customer (Female/Male)
-- SeniorCitizen: Is the customer a senior citizen? (0/1)
-- Partner: Does the customer have a partner? (Yes/No)
-- Dependents: Has the customer dependents? (Yes/No)
-- tenure: Number of months the customer has stayed with the company
-- PhoneService: Does the customer have a phone service? (Yes/ No)
-- MultipleLines: Does the customer have multiple lines or not (Yes, No, No phone service)
-- InternetService: Does the customer have multiple lines or not (Fiber, DSL, No)
-- OnlineSecurity: Has the customer purchased online security option in the contract? (Yes/No/No internet service)
-- OnlineBackup: Has the customer purchased the online back-up option in the contract? (Yes/No/No internet service)
-- DeviceProtection: Has the customer purchased the device protection option in the contract? (Yes/No/No internet service)
-- TechSupport: Has the customer purchased the technical support option in the contract (Yes/No/No internet service)
-- StreamingTV: Has the customer purchased streaming TV option in the contract? (Yes/No/No internet service)
-- StreamingMovies: Has the customer purchased streaming movies? (Yes/No/No internet service)
-- Contract: What type of contract does the customer have? (Month-to-Month/One year/Two year)
-- PaperlessBilling: Is the bill paperless? (Yes/No)
-- PaymentMethod: what is the payment method? (Electronic check/Mailed check/Bank transfer/Credit card)
-- MonthlyCharges: the monthly charges of the customer
-- TotalCharges: the total charges of the customer
-- Churn: Is the customer going to churn? (Yes/No)
+- **customerID**: identity of the customer
+- **gender**: what is the gender of the customer (Female/Male)
+- **SeniorCitizen**: Is the customer a senior citizen? (0/1)
+- **Partner**: Does the customer have a partner? (Yes/No)
+- **Dependents**: Has the customer dependents? (Yes/No)
+- **tenure**: Number of months the customer has stayed with the company
+- **PhoneService**: Does the customer have a phone service? (Yes/ No)
+- **MultipleLines**: Does the customer have multiple lines or not (Yes, No, No phone service)
+- **InternetService**: Does the customer have multiple lines or not (Fiber, DSL, No)
+- **OnlineSecurity**: Has the customer purchased online security option in the contract? (Yes/No/No internet service)
+- **OnlineBackup**: Has the customer purchased the online back-up option in the contract? (Yes/No/No internet service)
+- **DeviceProtection**: Has the customer purchased the device protection option in the contract? (Yes/No/No internet service)
+- **TechSupport**: Has the customer purchased the technical support option in the contract (Yes/No/No internet service)
+- **StreamingTV**: Has the customer purchased streaming TV option in the contract? (Yes/No/No internet service)
+- **StreamingMovies**: Has the customer purchased streaming movies? (Yes/No/No internet service)
+- **Contract**: What type of contract does the customer have? (Month-to-Month/One year/Two year)
+- **PaperlessBilling**: Is the bill paperless? (Yes/No)
+- **PaymentMethod**: what is the payment method? (Electronic check/Mailed check/Bank transfer/Credit card)
+- **MonthlyCharges**: the monthly charges of the customer
+- **TotalCharges**: the total charges of the customer
+- **Churn**: Is the customer going to churn? (Yes/No)
 
 
 # Data Cleaning
