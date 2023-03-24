@@ -311,12 +311,12 @@ After applying an algorithm, one has to check which features are important to pr
 
 ##### With Scikit-Learn
 
-<img width="992" alt="find_the_features_importance_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227536913-7b6ebfcb-2e64-45e0-a694-7bcc5430cd67.png">
+<img width="750" alt="find_the_features_importance_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227536913-7b6ebfcb-2e64-45e0-a694-7bcc5430cd67.png">
 
 
 ##### With PySpark
 
-<img width="911" alt="find_the_features_importance_PySpark" src="https://user-images.githubusercontent.com/86191637/227536904-728fdbf3-2bb3-40cb-9d58-f77599037fa4.png">
+<img width="750" alt="find_the_features_importance_PySpark" src="https://user-images.githubusercontent.com/86191637/227536904-728fdbf3-2bb3-40cb-9d58-f77599037fa4.png">
 
 
 
