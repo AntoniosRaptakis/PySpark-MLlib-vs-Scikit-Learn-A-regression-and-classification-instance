@@ -342,5 +342,11 @@ For the TotalCharges the important features are the MonthlyCharges and tenure...
 <img width="750" alt="confusion_matrix_ROC_curve_PySpark" src="https://user-images.githubusercontent.com/86191637/227304945-8ce7c828-0dc4-448b-8930-48d87f9d188e.png">
 
 
-By the way, Jason Brownlee is explaining clearly why do we get different results each time in machine learning.
-https://machinelearningmastery.com/different-results-each-time-in-machine-learning/
+In the last part of this small tutorial, I would like to give some comments about the results inconsistency between the PySpark ML library and scikit-learn. The feature importances for the prediction of the MonthlyCharges and the Churn has been given with different values with the two tools, although the difference is not to high. Firstly, it would maybe better to use the same splitted dataset for the different tools. Secondly, Stacey Ronaghan explain how PySpark and scikit-learn have implmented the decision trees algorithm and how do they calculate the features importances (https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3). One can see that for the trees class the two tools has implemented the features importances differently. 
+
+Let's see it on our results. In the case of TotalCharges, both tools find same importance in those two features by eliminating the rest. ML finds that those two features are very strong and the only important for predicting the target. So the "prediction" weight has been located on those two, which means that the nodes must be similar. On the other hand, for the prediction of MonthlyCharges and Churn there are more than two features that are playing a role to the prediction (even small) and the weight is not the same. So, the two tools calculates different nodes!
+
+
+By the way, Jason Brownlee explains clearly why do we get different results each time in machine learning (https://machinelearningmastery.com/different-results-each-time-in-machine-learning/). 
+
+Closing this tutorial, I have to say that the computational time using the PySpark ML lib is significantly higher than scikit-learn. One can find several articles online about, especially in the websites of towardsdatascience/medium.
