@@ -178,11 +178,11 @@ I need to store into a list the categorical vs continuous features and then I wi
 
 # Correlations
 
-The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and save computational time. In this sections I should have also included some statistical analysis, but as I was referred earlier I want to keep the notebooks simple. The correlation has been estimated using the pearson method, which is the default. Otherwise, one must also check the other two options that pandas provides, kendall and spearman. For pearson method I am "allowed" to take the absolute value since the correlation shows a monotically relationship between the teested features. If I had used kendall and taken the absolute value, it would have guided me to wrong results since the range -1 to 1 means low correlated vs highly correlated...
+The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and save computational time. In this sections I should have also included some statistical analysis, but as I was referred earlier I want to keep the notebooks simple. The correlation has been estimated using the pearson method, which is the default. Otherwise, one must also check the other two options that pandas provides, kendall and spearman. For pearson method I am "allowed" to take the absolute value since the correlation shows a monotically relationship between the tested features. If I had used kendall and taken the absolute value, it would have guided me to wrong results since the range -1 to 1 means low correlated vs highly correlated...
 
 Additionally, I have columns with categorical values. In this case, it is expected and highly required to use chi-squared and post-hoc.
 
-After explaining why do I keep skip statisical analysis (and EDA part is very simple), I show below how do I find the correlation for PySpark.
+After explaining why do I keep skip statisical analysis (EDA part is also very simple), I show below how do I find the correlation for PySpark.
 
 <img width="750" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
 
