@@ -284,15 +284,21 @@ Below are the metrics results with PySpark (left) and Scikit-Learn (right). The 
 
 
 
+
 ### Actual vs Predicted values
 
 A good technique to visualize the accuracy of the predictions is the plot of actuals vs predicted values. Here I show the result for the TotalCharges and for MonthlyCharges is similar. For the case of scikit-learn I applied the inverse transform to the predicted values, whereas for PySpark I did not.
 
 ##### With Scikit-Learn
 
+<img width="750" alt="Regression_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227536924-ff82fd0e-f346-466f-9e97-49d6425dda77.png">
+
 <img width="750" alt="TotalCharges_actual_vs_predicted_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303117-50d7b208-1517-4a46-bf13-702d6bae7101.png">
 
+
 ##### With PySpark
+
+<img width="750" alt="Regression_PySpark" src="https://user-images.githubusercontent.com/86191637/227536921-59e9b633-9fd6-4c02-aa65-630a0960bfbc.png">
 
 <img width="750" alt="TotalCharges_actual_vs_predicted_pyspark" src="https://user-images.githubusercontent.com/86191637/227303111-32b2112b-46b2-4c5c-9725-ede35764db89.png">
 
@@ -300,9 +306,24 @@ A good technique to visualize the accuracy of the predictions is the plot of act
 
 ### Features importances
 
-After applying an algorithm, one has to check which features are important to predict the target. For the TotalCharges the important features are the MonthlyCharges and tenure...the rest have been eliminated!
+After applying an algorithm, one has to check which features are important to predict the target. 
+
+
+##### With Scikit-Learn
+
+<img width="992" alt="find_the_features_importance_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227536913-7b6ebfcb-2e64-45e0-a694-7bcc5430cd67.png">
+
+
+##### With PySpark
+
+<img width="911" alt="find_the_features_importance_PySpark" src="https://user-images.githubusercontent.com/86191637/227536904-728fdbf3-2bb3-40cb-9d58-f77599037fa4.png">
+
+
+
+For the TotalCharges the important features are the MonthlyCharges and tenure...the rest have been eliminated!
 
 <img width="540" alt="TotalCharges_feature_importance_pyspark" src="https://user-images.githubusercontent.com/86191637/227303125-4a6cdbf6-7451-4550-b6d6-0a5da6325dee.png">
+
 
 
 # The classification instance
