@@ -65,6 +65,13 @@ The features and their meaning:
 - **Churn**: Is the customer going to churn? (Yes/No)
 
 
+For the supervised learning, the target columns are:
+- MonthlyCharges,
+- TotalCharges, and
+- Churn
+
+I use the regression method to predict the MonthlyCharges and TotalCharges and classification for the Churn.
+
 # Data Cleaning
 
 
@@ -116,20 +123,26 @@ Drop the Nan values:
 
 # Exploratory Data Analysis (EDA)
 
+EDA is only in the scikit-learn notebook.
 
-<img width="700" alt="PhoneService_OnlineBackup_OnlineSecurity" src="https://user-images.githubusercontent.com/86191637/227262473-cf57ff90-6b20-4b3e-9094-70ddc44092d0.png">
 
-First of all, let's see the stacked pie charts
+First of all, let's see the pie charts:
 - Left: Phone service and Online back-up
 - Right: Phone service and Online security. 
 Those pie charts simply say that Online back-up and online security are two options that maybe go together.
 
-
-<img width="700" alt="StreamingMovies_PhoneService_InternetService" src="https://user-images.githubusercontent.com/86191637/227262481-e652dfc1-539c-4edf-a44c-7148a77130d3.png">
+<img width="700" alt="PhoneService_OnlineBackup_OnlineSecurity" src="https://user-images.githubusercontent.com/86191637/227262473-cf57ff90-6b20-4b3e-9094-70ddc44092d0.png">
 
 Following the same concept with different features, I secondly create the pie charts
 - Left: Streaming Movies and Internet Srvice
 - Right Phone Service and Internet Service
+
+<img width="700" alt="StreamingMovies_PhoneService_InternetService" src="https://user-images.githubusercontent.com/86191637/227262481-e652dfc1-539c-4edf-a44c-7148a77130d3.png">
+
+
+The bar chart below has been stacked over Partners and Dependents and on the x-axis is shown the diffferent internet service provided. On top of the bars has been written the respective percentage of the internet service option.
+
+<img width="700" alt="Partner_Dependents_InternetService" src="https://user-images.githubusercontent.com/86191637/227262464-4073f763-e870-4d79-a0fc-e18567777cd1.png">
 
 Combining these pie charts with the previous, one can see that about 21% of the customers have:
   - phone service
@@ -137,17 +150,10 @@ Combining these pie charts with the previous, one can see that about 21% of the 
   - no online back-up, and
   - no online security
 
-<img width="700" alt="Partner_Dependents_InternetService" src="https://user-images.githubusercontent.com/86191637/227262464-4073f763-e870-4d79-a0fc-e18567777cd1.png">
-
-This bar chart has been stacked over Partners and Dependents and on the x-axis is shown the diffferent internet service provided. On top of the bars has been written the respective percentage of the internet service option.
-
-
-
-<img width="700" alt="Contract_Churn" src="https://user-images.githubusercontent.com/86191637/227262444-a11d41e4-9105-4dce-92ed-bf9498b4f920.png">
-
 
 The last bar plot shows the percentages of the Churn/not Churn customers and what kind of contract do they have. Interestingly, the vast majority of the customers who resigned have a month-to-month contract!
 
+<img width="700" alt="Contract_Churn" src="https://user-images.githubusercontent.com/86191637/227262444-a11d41e4-9105-4dce-92ed-bf9498b4f920.png">
 
 From this bar chart, one can see that the dataset is completely unbalanced because only 1/4 of the dataset includes customers who are going to churn! 
 
@@ -156,6 +162,8 @@ From this bar chart, one can see that the dataset is completely unbalanced becau
 
 # Data Preprocessing
 Firstly, I drop off the costumerID column.
+
+I need to store into a list the categorical vs continuous features and then I will encode them.
 
 ##### With Scikit-learn
 <img width="700" alt="preprocessing_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227270156-bd1f527e-b037-4729-bf22-3d682d2c5a84.png">
@@ -169,20 +177,20 @@ Firstly, I drop off the costumerID column.
 
 
 # Correlations
-The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and save computational time. Below, I show the concept to find the correlation.
+The correlation with the target column in supervised learning is very essential. In a huge dataset, it can help us to choose specific columns and save computational time. Below, I show how I find the correlation for PySpark.
 
 <img width="750" alt="road_to_correlation_matrix" src="https://user-images.githubusercontent.com/86191637/227242561-5067e08b-faff-44c9-8f61-f3541129c4cd.png">
 
-I have the dataframe with all of the correlations between the features and I can visualize it with a matrix by showing only the lower the diagonal elements:
+The dataframe with all of the correlations between the features have been created and I can visualize it with a matrix by showing only the lower the diagonal elements:
 
 <img width="700" alt="correlation_matrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227242529-1a75fbcc-b573-4072-9a57-b1d609f37339.png">
+
 
 I am mainly interested to see the correlation of specific features with the target. For example, in one of the regression instances the target is the MonthlyCharges. There are some features that I won't need, so I can drop them.
 
 <img width="720" alt="how_to_find_the_correlation" src="https://user-images.githubusercontent.com/86191637/227242559-cd6ded92-0cd9-457f-9646-e23d292bd061.png">
 
-
-The figure below shows the correlation between the specific target column with the selected features.
+For TotalCharges and Churn there are features that I drop off respectively. Thus, the figure below shows the correlation between the specific target column with the selected features.
 
 ##### For the regressions:
 
@@ -199,6 +207,18 @@ The figure below shows the correlation between the specific target column with t
 
 # Drop features and create datasets for supervised learning
 
+Before I move on to apply the algorithms the two techniques in supervised learning method, I must create a dataset for each prediction, by dropping off the columns that I will not need. This decision has been taken by practical thinking and from the correlation matrices above.
+
+I drop:
+- For MonthlyCharges:
+  - gender, SeniorCitizen, Partner, TotalCharges, TechSupport, OnlineSecurity, Contract
+  
+-For TotalCharges:
+  - gender, Dependents, SeniorCitizen, Churn
+  
+-For Churn:
+  - gender, SeniorCitizen, PhoneService, MultipleLines, InternetService, StreamingTV, StreamingMovies
+  
 ##### With Pandas
 
 <img width="750" alt="new_datasets_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227267646-ddf1617d-983b-4634-901d-8fc05b8edc12.png">
@@ -211,7 +231,7 @@ The figure below shows the correlation between the specific target column with t
 
 <img width="750" alt="Churn_features_selection_pyspark" src="https://user-images.githubusercontent.com/86191637/227267596-79b997b0-24bd-4ac2-a956-6bf1455bac5e.png">
 
-Let's see how does vector assemble the features:
+Let's see how does the VectorAssembler assemble the features:
 
 <img width="200" alt="how_pyspark_creates_the_dataset" src="https://user-images.githubusercontent.com/86191637/227267632-6156f461-23c5-4d47-ad56-1da4e6cba30c.png">
 
@@ -232,6 +252,8 @@ Because VectorAssembler chooses one of those two output format based on whicheve
 
 ### Models - Algorithms
 
+I am going to use Ridge, Lasso, DecisionTreeRegressor, RandomForestRegressor and GradientBoostingRegressor. I will tune only one hyperparameter, just only to see the documentation style. Of course, one can (or has to) use more hyperparameters. The concept is the same for the prediction of TotalCharges and MonthlyCharges. 
+
 ##### With Scikit-Learn
 <img width="750" alt="models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303104-08bb841a-b3b4-4995-a73b-2540e865f088.png">
 
@@ -241,13 +263,18 @@ Because VectorAssembler chooses one of those two output format based on whicheve
 
 ### Train the models
 
+For the models training in scikit learn, I will tune the hyperparameter in 70% of the dataset and then I will take the best model and use cross validation by folding the dataset 10 times, in order to make some statistics for the metrics that I use. The metrics is $R^2$, and I am going to calculate the mean value and standard deviation for the folded datasets.
+
 ##### With Scikit-Learn
 <img width="620" alt="train_models_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303130-42e8e661-e752-4c1d-808e-2e5f8d2a4d5c.png">
+
+On the other hand, for the models training in PySpark, I will tune the hyperparameter in 70% of the dataset and then I will again tune them into the Cross validator by folding the dataset 10 times. The metrics that I use is $R^2$. 
 
 ##### With PySpark
 <img width="570" alt="train_models_pyspark" src="https://user-images.githubusercontent.com/86191637/227303129-3beddeff-df0d-49d9-9a13-59b44729529b.png">
 
 
+Below are the metrics results with PySpark (left) and Scikit-Learn (right). The target is the MonthlyCharges.
 
 ### Metrics results
 <p float="left">
