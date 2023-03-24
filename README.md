@@ -286,6 +286,8 @@ Below are the metrics results with PySpark (left) and Scikit-Learn (right). The 
 
 ### Actual vs Predicted values
 
+A good technique to visualize the accuracy of the predictions is the plot of actuals vs predicted values. Here I show the result for the TotalCharges and for MonthlyCharges is similar. For the case of scikit-learn I applied the inverse transform to the predicted values, whereas for PySpark I did not.
+
 ##### With Scikit-Learn
 
 <img width="750" alt="TotalCharges_actual_vs_predicted_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227303117-50d7b208-1517-4a46-bf13-702d6bae7101.png">
@@ -297,6 +299,8 @@ Below are the metrics results with PySpark (left) and Scikit-Learn (right). The 
 
 
 ### Features importances
+
+After applying an algorithm, one has to check which features are important to predict the target. For the TotalCharges the important features are the MonthlyCharges and tenure...the rest have been eliminated!
 
 <img width="540" alt="TotalCharges_feature_importance_pyspark" src="https://user-images.githubusercontent.com/86191637/227303125-4a6cdbf6-7451-4550-b6d6-0a5da6325dee.png">
 
