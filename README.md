@@ -333,21 +333,32 @@ For the TotalCharges the important features are the MonthlyCharges and tenure...
 
 # The classification instance
 
+For the classification, I followed exactly same concept as the regression and same algorithms but this time for classification. 
+
+Below is the result of the metrics with PySpark (on the left) vs scikit-learn (on the right).
+
 <p float="left">
   <img width="344" alt="metrics_PySpark" src="https://user-images.githubusercontent.com/86191637/227304994-a67d42da-f1ed-419d-ac58-75024db88740.png">
   <img width="510" alt="metrics_result_scikit-learn" src="https://user-images.githubusercontent.com/86191637/227304997-64ca510d-b9c3-4e5e-be75-681c3d1a4934.png">
 </p>
 
+I continued with the confusion matrix. I show firstly the documentation for PySpark using the respective class, and secondly the manual way to calculate the TP - TN - FP - FN.
+
 <img width="750" alt="ConfusionMatrix_PySpark" src="https://user-images.githubusercontent.com/86191637/227304963-2c403554-95c0-415b-8b66-4920d440e9ba.png">
 
 <img width="650" alt="manual_way_for_confusion_matrix" src="https://user-images.githubusercontent.com/86191637/227304981-a0073fc9-19f0-4d2d-a858-f1e6194b32f2.png">
 
+The ROC curve has not been implented in PySpark yet. Thus, the "manual way" from scratch has to be implemented in order to calculate it. Below you see the script.
+
 <img width="740" alt="ROC_PySpark" src="https://user-images.githubusercontent.com/86191637/227305003-ab508f50-cf19-4648-97a4-4f807ac61a2d.png">
+
+
+Visualization of the confusion matrix and ROC curve with PySpark.
 
 <img width="750" alt="confusion_matrix_ROC_curve_PySpark" src="https://user-images.githubusercontent.com/86191637/227304945-8ce7c828-0dc4-448b-8930-48d87f9d188e.png">
 
 
-In the last part of this small tutorial, I would like to give some comments about the results inconsistency between the PySpark ML library and scikit-learn. The feature importances for the prediction of the MonthlyCharges and the Churn has been given with different values with the two tools, although the difference is not to high. Firstly, it would be better to use the same splitted dataset for the different tools. Secondly, Stacey Ronaghan explains how have PySpark and scikit-learn implmented the decision trees algorithm and how do they calculate the features importances (https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3). One can see that for the trees class the two tools has implemented the features importances differently. 
+Before the end of this small tutorial, I would like to give some comments about the results inconsistency between the PySpark ML library and scikit-learn. The feature importances for the prediction of the MonthlyCharges and the Churn has been given with different values with the two tools, although the difference is not to high. Firstly, it would be better to use the same splitted dataset for the different tools. Secondly, Stacey Ronaghan explains how have PySpark and scikit-learn implmented the decision trees algorithm and how do they calculate the features importances (https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3). One can see that for the trees class the two tools has implemented the features importances differently. 
 
 Let's see it on our results. I have used Gradient Boosting algorithm for all predictions. In the case of TotalCharges, both tools find same importance for two features by eliminating the rest. ML finds that there are two very strong and the only important features for predicting the target. So the "prediction" weight has been located on those two, which means that the nodes must be similar. On the other hand, for the prediction of MonthlyCharges and Churn there are more than two features that are playing a role to the prediction (even small) and the weight is not the same. So, the two tools calculates different nodes!
 
